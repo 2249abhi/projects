@@ -1,0 +1,164 @@
+2023-04-27 12:52:05 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [C:\xampp\htdocs\cooperative\vendor\cakephp\cakephp\src\Filesystem\Folder.php, line 577]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+Cake\Console\CommandScanner::scanDir() - CORE\src\Console\CommandScanner.php, line 111
+Cake\Console\CommandScanner::scanCore() - CORE\src\Console\CommandScanner.php, line 42
+Cake\Console\CommandCollection::autoDiscover() - CORE\src\Console\CommandCollection.php, line 217
+Cake\Http\BaseApplication::console() - CORE\src\Http\BaseApplication.php, line 206
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 142
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2023-04-27 12:52:06 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [C:\xampp\htdocs\cooperative\vendor\cakephp\cakephp\src\Console\ConsoleOptionParser.php, line 1076]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE\src\Console\Shell.php, line 595
+Bake\Shell\BakeShell::getOptionParser() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 289
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 486
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 164
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2023-04-27 12:52:06 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [C:\xampp\htdocs\cooperative\vendor\cakephp\cakephp\src\Console\ConsoleOptionParser.php, line 1076]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE\src\Console\Shell.php, line 595
+Bake\Shell\BakeShell::getOptionParser() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 289
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 486
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 164
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2023-04-27 12:52:06 Notice: Deprecated (8192): Array and string offset access syntax with curly braces is deprecated in [C:\xampp\htdocs\cooperative\vendor\cakephp\cakephp\src\Console\ConsoleOptionParser.php, line 1077]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+Cake\Console\Shell::getOptionParser() - CORE\src\Console\Shell.php, line 595
+Bake\Shell\BakeShell::getOptionParser() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 289
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 486
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 164
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2023-04-27 12:52:08 Notice: Deprecated (8192): Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in [C:\xampp\htdocs\cooperative\vendor\twig\twig\lib\Twig\Node.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT\vendor\twig\twig\lib\Twig\Parser.php, line 411
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT\vendor\twig\twig\lib\Twig\TokenParserInterface.php, line 42
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - ROOT\vendor\twig\twig\lib\Twig\TokenParser.php, line 17
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - ROOT\vendor\twig\twig\lib\Twig\TokenParser\Include.php, line 22
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - ROOT\vendor\wyrihaximus\twig-view\src\Lib\Twig\TokenParser\Cell.php, line 20
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+WyriHaximus\TwigView\Event\TokenParsersListener::construct() - ROOT\vendor\wyrihaximus\twig-view\src\Event\TokenParsersListener.php, line 49
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 353
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 330
+WyriHaximus\TwigView\View\TwigView::initialize() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 69
+Bake\View\BakeView::initialize() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 111
+Cake\View\View::__construct() - CORE\src\View\View.php, line 371
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 974
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 101
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 273
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 274
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 518
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 164
+[main] - ROOT\bin\cake.php, line 12
+
+
+
+2023-04-27 12:52:08 Notice: Deprecated (8192): Unparenthesized `a ? b : c ? d : e` is deprecated. Use either `(a ? b : c) ? d : e` or `a ? b : (c ? d : e)` in [C:\xampp\htdocs\cooperative\vendor\twig\twig\lib\Twig\Node.php, line 198]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 159
+include - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT\vendor\twig\twig\lib\Twig\Parser.php, line 411
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+class_exists - [internal], line ??
+include - ROOT\vendor\twig\twig\lib\Twig\TokenParserInterface.php, line 42
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - ROOT\vendor\twig\twig\lib\Twig\TokenParser.php, line 17
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - ROOT\vendor\twig\twig\lib\Twig\TokenParser\Include.php, line 22
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+include - ROOT\vendor\wyrihaximus\twig-view\src\Lib\Twig\TokenParser\Cell.php, line 20
+Composer\Autoload\includeFile - ROOT\vendor\composer\ClassLoader.php, line 444
+Composer\Autoload\ClassLoader::loadClass() - ROOT\vendor\composer\ClassLoader.php, line 322
+spl_autoload_call - [internal], line ??
+WyriHaximus\TwigView\Event\TokenParsersListener::construct() - ROOT\vendor\wyrihaximus\twig-view\src\Event\TokenParsersListener.php, line 49
+Cake\Event\EventManager::_callListener() - CORE\src\Event\EventManager.php, line 353
+Cake\Event\EventManager::dispatch() - CORE\src\Event\EventManager.php, line 330
+WyriHaximus\TwigView\View\TwigView::initialize() - ROOT\vendor\wyrihaximus\twig-view\src\View\TwigView.php, line 69
+Bake\View\BakeView::initialize() - ROOT\vendor\cakephp\bake\src\View\BakeView.php, line 111
+Cake\View\View::__construct() - CORE\src\View\View.php, line 371
+Bake\Shell\Task\BakeTemplateTask::getView() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 65
+Bake\Shell\Task\BakeTemplateTask::generate() - ROOT\vendor\cakephp\bake\src\Shell\Task\BakeTemplateTask.php, line 88
+Bake\Shell\Task\ModelTask::bakeTable() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 974
+Bake\Shell\Task\ModelTask::bake() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 115
+Bake\Shell\Task\ModelTask::main() - ROOT\vendor\cakephp\bake\src\Shell\Task\ModelTask.php, line 101
+Bake\Shell\BakeShell::Bake\Shell\{closure}() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 273
+Cake\Collection\Collection::each() - CORE\src\Collection\CollectionTrait.php, line 51
+Bake\Shell\BakeShell::all() - ROOT\vendor\cakephp\bake\src\Shell\BakeShell.php, line 274
+Cake\Console\Shell::runCommand() - CORE\src\Console\Shell.php, line 518
+Cake\Console\CommandRunner::runShell() - CORE\src\Console\CommandRunner.php, line 342
+Cake\Console\CommandRunner::run() - CORE\src\Console\CommandRunner.php, line 164
+[main] - ROOT\bin\cake.php, line 12
+
+
+

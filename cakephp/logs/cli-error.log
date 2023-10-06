@@ -1,0 +1,14 @@
+2023-04-27 12:52:08 Error: [ParseError] syntax error, unexpected 'extends' (T_EXTENDS) in C:\xampp\htdocs\cooperative\src\Model\Table\ProfilesTable.php on line 22
+Stack Trace:
+#0 C:\xampp\htdocs\cooperative\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(115): Bake\Shell\Task\ModelTask->bakeTable(Object(Cake\ORM\Table), Array)
+#1 C:\xampp\htdocs\cooperative\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Profiles')
+#2 C:\xampp\htdocs\cooperative\vendor\cakephp\bake\src\Shell\BakeShell.php(273): Bake\Shell\Task\ModelTask->main('Profiles')
+#3 C:\xampp\htdocs\cooperative\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(51): Bake\Shell\BakeShell->Bake\Shell\{closure}('Profiles', 0)
+#4 C:\xampp\htdocs\cooperative\vendor\cakephp\bake\src\Shell\BakeShell.php(274): Cake\Collection\Collection->each(Object(Closure))
+#5 C:\xampp\htdocs\cooperative\vendor\cakephp\cakephp\src\Console\Shell.php(518): Bake\Shell\BakeShell->all('profiles')
+#6 C:\xampp\htdocs\cooperative\vendor\cakephp\cakephp\src\Console\CommandRunner.php(342): Cake\Console\Shell->runCommand(Array, true)
+#7 C:\xampp\htdocs\cooperative\vendor\cakephp\cakephp\src\Console\CommandRunner.php(164): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#8 C:\xampp\htdocs\cooperative\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#9 {main}
+
+

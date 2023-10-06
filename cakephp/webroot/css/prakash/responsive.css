@@ -1,0 +1,240 @@
+.menuicon{display:none;}
+
+
+
+/* mobiletabs */
+.mobile_tabs {
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 999;
+	display:none;
+}
+
+
+.mobview{display:none;}
+
+/*
+
+ ************* Media Queries Tablets ****************** */
+@media only screen and (max-width: 1599px) {
+.topStrip { }
+}
+
+@media only screen and (max-width: 1279px) {
+
+}
+
+/* ************* iPad Media Queries ****************** */
+@media only screen and (max-width: 1169px) {	
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* ************* Mobiles Media Queries ****************** */
+@media only screen and (max-width: 767px) {
+.splsPage #header {padding: 0;}
+.splsPage .top-bar-right{padding-top:0;}
+.splsPage .image-circle {width: 55px;height: 55px;}
+.splsPage .hd-center-title{margin-top:5px;}
+.splsPage .top-bar-right ul {margin-bottom: 0;}
+.splsPage .hd-center-title h2 {font-size: 20px;line-height: 20px;}
+.splsPage .col-md-4 {position: inherit;}
+.splsPage .EntrWeb .btn {border-radius: 0;width: 120px;margin-top: 0;font-size: 12px;padding: 5px 0;height: auto;position: fixed;top: 0;right: 0; line-height:normal;}
+.splsPage .detail-minister ul li {float: left;display: inline-block; width: 50%; margin-bottom: 20px;}
+
+
+/* maine header */
+.headerRow .col-6 {max-width: 100%;flex: 0 0 100%;}
+.topNav li:nth-child(1), .topNav li:nth-child(2) {display: none;}
+.fiftyYRs {width:auto;}
+.social-group li a .fa {width: 25px; height: 25px;line-height: 22px; font-size: 14px;padding: 3px;}
+.list-inline-item:not(:last-child) {margin-right:0rem;}
+	.searchArea .form-control{padding: 0 35px 0 15px;    border-radius: 0px;height: 31px; line-height: 31px;}
+	.searchArea .submit {width: 25px; height: 30px;}
+	.fiftyYRs ul.list-unstyled.list-inline.social-group {margin-top: 0px!important; margin-bottom: 0;}
+	.headerRow .col-6 .col-6 {max-width: 50%; flex: 0 0 50%;}
+	.image-circle {width: 50px!important;  height: 50px!important;}
+	.hds-center .logo-txt { padding-top: 0px; margin-left: -60px; position:relative;}
+	.hds-center .logo-txt a {font-size: 14px;line-height: normal;}
+	.hds-center .logo-txt br{display:none;}
+	.hds-center .logo-txt span{display:block;}
+	.logo-txt:after{right:20px; top:5px;}
+	.hds-center .logo-txt2 {font-size:13px;margin-top: 10px;margin-left:-20px;}
+	.headerRow .col-6:nth-child(1) {margin-bottom: 10px;}
+	.TopleftNav ul li,.topNav li{padding:0 3px;}
+	.TopleftNav ul li a{font-size:10px;}
+	.topStrip .col-4 {padding: 0 5px;}
+	.topStrip .col-8 {padding: 0 5px;}
+	#accessControl input{width:15px; font-size:10px;}
+	.topNav select{font-size:12px;}
+	.homeBanner ol.carousel-indicators {margin-left:0;transform: rotate(0deg);margin-bottom:0; left: 0;}
+	header.headerFixed {position: relative;}
+	.headerFixed .col-3.hds-center.logoDV,.logoDV {margin-left: 0px; max-width: 80px;}
+	.menuBar {display: block;}
+	#nav li{width:100%; text-align:left;}
+	#nav li a{padding:0 0; font-size:14px;border-bottom: 1px dashed;}
+	#nav{width:100%;}
+	a.menuiconnew {display:block;position: absolute;right: -20px; top: 7px;font-size: 25px; border: 2px solid #333;padding: 0px 5px; height: 32px; line-height: 26px;}
+	.mainNavigation {position: fixed;width: 260px; background: #f98924; left: -300px; padding: 0 15px; top: 0; height: 100%; transition: all 0.3s; display: block!important;}
+	.mainNavigation.openmenu{display:block; left:0px;}
+	.mainNavigation.openmenu ul#nav{display:block!important;}
+	.bio-img1{height:auto; margin-top:0;width: 100%; margin-left: 0;}
+	.recnttEvnt .card{border:none;}
+	.social-media .nav.nav-tabs .nav-link {border-right: 2px solid #a6abab;padding: 10px 0;float: left; width: 50%;display: inline; min-width: auto; margin: 0;}
+	.Biography-sec .bioHead h2 {padding: 10px 0; margin-bottom: 0; font-size: 20px;}
+	.update .slider-nav.pl-2.ml-3.brd-left{top:10px;}
+	.photoTab li.nav-item {float: left; margin-top: 10px; width: auto;display: inline; min-width: auto;}
+	.GallSec .swiper-slide{box-shadow:none; width:100%;}
+	.footer-address br {display: none;}
+	.UpdtSec, .GallSec {padding: 10px 0px;}
+	.videoplay a, .picplay a{position: absolute; top: 50%; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); -moz-transform: translate(-50%, -50%);
+    background: none; height: auto; left: 50%;}
+	.slider-arrow-next.no-circle .fa, .slider-arrow-prev.no-circle .fa {width: 18px; height: 18px;line-height: 16px;}
+	.slider-arrow-next.no-circle, .slider-arrow-prev.no-circle {width: 18px; height: 18px;}
+	.bloghk .slider-nav.pl-2.ml-3.brd-left {margin-left: 0!important;}
+	.d-flex.justify-content-end.align-items-center.bloghk {top: 10px; width: 120px;}
+	.bloghk div {font-size: 12px;}
+	.Biography-sec .col-sm-5:after{height:90%; display:none;}
+	.inner-memory{padding:0 15px;}	
+	.slider-arrow-next {right: 0;}
+	.slider-arrow-prev {left: 0;}
+	.homeTitle{font-size:20px;}
+	.product21ColSlider2 .col-md-2.pl-0.pr-0 img {border: 5px solid #fff;}
+	.product21ColSlider2 .col-md-2.pl-0.pr-0 {width:60px;}
+	.product21ColSlider2 .col-md-10.pl-0 {width: 75%;}
+	.news-content p {font-size: 14px; line-height: normal;}
+	.product21ColSlider2 .col-md-10.pl-0 .card-body {padding-top: 0;}
+	.speeches #group {margin-left: 0;padding-left: 10px;}
+	.speeches #result {width: 70%;}
+	.speeches .img{height:100px;width: 100%;}
+	.fondm p {color: #000; font-size: 15px; line-height: 1.5;}
+	.fondm h2{ font-size:22px;}
+	.fondm h2 small{font-size:15px;}
+	section.Biography-sec:after{background-size:auto 100%;height: auto;}
+	.Biography-sec .bioTxt p{font-size:14px; line-height:1.3;}
+	.speeches #result iframe {height: 302px;}
+	.speeches .vidDes p {font-size: 12px;line-height: 1.3;}
+	.inner-cont-sec {padding: 10px 15px;}
+	.inner-cont-sec p{margin-bottom:0;}
+	.Decod-right h2 {margin-top: 10px;  margin-bottom: 10px;font-size: 20px;}
+	.video-frame {height: 320px;margin-bottom: 20px;}
+	.video-frame iframe{height: 300px;}
+	#nav ul{position:relative; opacity:1; display:none;    width: 100%; top:0;}
+	#nav li:hover > ul{display:block;}
+	.headerFixed #nav ul {top: 0;}
+	.headerFixed #nav li ul li a ,#nav li ul li a{font-size: 14px; line-height: 25px;}
+	.section-title.con h2,.deoheading h3 {padding-bottom: 10px; background-size: 100%;}
+	.brdcum {padding: 10px 15px;}
+	
+	.vertical-tabs{    overflow-x: auto; overflow-y: hidden;}
+	.vertical-tabs .nav.nav-tabs {border-bottom: 0;    margin-right: 0;padding-right: 0; overflow-x: scroll; flex-wrap: nowrap;display: flex; width:100%;overflow-y: hidden;}
+	.nav-tabs .nav-item {width: 200px; display: flex;font-size:12px;min-width: 150px;}
+	.vertical-tabs .nav-tabs .nav-link{font-size:12px;padding: 5px; width:100%;}
+	.vertical-tabs .nav-tabs .nav-link img { width: 30px;}
+	.section-title{margin-bottom:0;}
+	.vertical-tabs .tab-content {display: block; float: left; width: 100%; margin-top: 10px; padding:0 15px;}
+	.boigraphySec .bio-img{max-width:150px;}
+	.boigraphySec .fullban .bio-img{max-width:100%; }
+	.vertical-tabs .sv-tab-panel .col-md-12 .col-md-6 {width:auto;}
+	.bio-left {padding-right: 10px;margin-bottom: 20px;}
+	.bio-left2 p,.bio-right p {font-size: 12px;line-height: normal;}
+	.bio-right2 {padding-left: 10px; margin-bottom: 10px; width: 150px;}
+	section.parleful .vertical-tabs .nav.nav-tabs{display:flex;width:100%;    padding-top: 0; position:relative; height:auto;}
+	section.parleful .vertical-tabs{    border-radius:0px;padding: 0; }
+	section.parleful .tab-content {padding-left:10px; padding-top: 0px; padding-right:10px;margin-top: 10px;width:100%; float:left;}
+	section.parleful .vertical-tabs .nav-tabs .nav-link{font-size:14px;padding: 5px 10px;}
+	.bio-img iframe {width: 250px; height: 250px;}
+	.qct {margin-top: 20px;}
+	div#parl1 { width:100%!important;}
+	.GallSec .product-card .card-body{    padding: 9px 0px 0px 0px;}
+	.photoTab .col-lg-12 { padding: 0;}
+	.parliamnetsec .apexcharts-canvas {margin-left: -20px; transform: scale(1);}
+	section.parleful{padding:30px 15px;}
+	.accordion button.btn.btn-link.btn-block{white-space:inherit; font-size:12px;padding-right: 40px; padding-top: 5px;}
+	.accordiansection-area .card-body {padding-left: 30px; padding-right: 30px;}
+	#accordionExample li {font-size: 14px; padding-bottom: 10px;}
+	.accordiansection-area .bio-img{margin-bottom:0;}
+	.globimprt .vertical-tabs{border-radius:0;}
+	.splsPage .detail-minister ul li a span{font-size:17px;    border-bottom: 2px solid #ff8906;}
+	.splsPage .detail-minister ul li a span small{font-size:12px;}
+	.product-card .card-body{min-height:auto!important;}
+	.footer-logo-slider .swiper-slide img {width: 80%;}
+	.seller-tab h2.m-0.homeTitle {margin-bottom: 15px!important;margin-top: 10px!important;}
+	.swiper-slide{width:100%!important;}
+	
+	
+	/* sewa sanghatan */
+	.webview{display:none;}
+	.mobview{display:block;}
+	.sewaslider {background: #fff;padding: 15px;margin: 5%;}
+	.sewaslider .carousel-item img{max-width:100%; margin:auto;}
+	.sewaslidimg img {text-align: center; width: 100%;}
+	.bookfull{padding-bottom:40px;}
+	.sewaslidimg {box-shadow: 5px 6px 10px rgba(0,0,0,0.2)!important; border: 5px solid #bf3623; margin-bottom: 20px;}
+	.sewaslider .carousel-control-next,.sewaslider .carousel-control-prev {position: relative;display: inline-block;text-align: center;opacity: 1;background: #4a4a4a;
+	border-radius: 100%;width: 30px; height: 30px;line-height: 39px;border: 1px solid #ccc; margin-bottom: 10px;}
+	.sewaslider .carousel-indicators {position: absolute;right: 0; left:auto; top: 0; bottom:auto;    margin-right:0; margin-left:0;}
+	.sewaslider .carousel-indicators li {height: auto;background-color: none;opacity: 0;font-size: 22px;text-indent: 0; position:absolute;}
+	.sewaslider .carousel-indicators li.active{opacity: 1;}
+	.sewaslider  ol {list-style: circle;}
+	}
+	
+	@media only screen and (max-width: 1023px) and (min-width: 768px) {
+		.splsPage .col-md-4 {width: auto;flex: auto; max-width: initial;}
+		.splsPage .detail-minister ul li a span {font-size: 15px;}
+		.splsPage .detail-minister ul li a span small {font-size: 11px;}
+		.Biography-sec .col-sm-5:after{display:none;}
+		.bio-img1{height:auto;margin-top: 0;}
+		.headerFixed .image-circle,.image-circle {width: 60px; height: 60px;}
+		.headerFixed .hds-center .logo-txt,.hds-center .logo-txt {padding-top: 0px; position: relative;}
+		.headerFixed .col-3.hds-center.logoDV,.col-3.hds-center.logoDV {max-width: 100px;}
+		.headerFixed .logo-txt:after,.logo-txt:after {top: 0; right: -25px;}
+		.headerFixed .hds-center .logo-txt2,.hds-center .logo-txt2 {font-size: 13px; margin-top: 6px;}
+		.headerFixed .fiftyYRs ul.list-unstyled,.fiftyYRs ul.list-unstyled{margin-bottom:0; margin-top:0!important;}
+		.headerFixed #nav li a, #nav li a{line-height:35px;font-size: 16px;}
+		.headerFixed #nav li.parent > a:before, .headerFixed #nav li.dropdown > a:before,#nav li.parent > a:before,#nav li.dropdown > a:before {top: 8px;}
+		header.headerFixed {position: relative;}
+		.UpdtSec .col-lg-6 {max-width: 50%;}
+		.swiper-slide{max-width:100%!important;box-shadow:none!important;}
+		.recnttEvnt .card{border:none;}
+		.recnttEvnt .card-body {padding: 0px 10px 0px 10px;}
+		.GallSec .col-lg-6 {max-width: 50%;}
+		.product-card .card-body{min-height:auto!important;}
+		.footer-privacy-link li a{font-size:12px;}
+		.slider-arrow-next{right:0;}
+		.slider-arrow-prev{left:0;}
+		.footer-logo-slider .swiper-slide img {width: 80%;}
+		.hds-center .logo-txt a{font-size:19px;line-height:1.3;}
+		
+		
+	}
+	
+	@media only screen and (max-width: 1366px) and (min-width: 1024px) {
+		.splsPage .col-md-4 {width: auto;flex: auto; max-width: initial;}
+		.splsPage .detail-minister ul li a span {font-size: 15px;}
+		.splsPage .detail-minister ul li a span small {font-size: 11px;}
+	}
+
+@media only screen and (min-width: 768px) {
+.ml-25{margin-left:25%;}
+}
+
+@media only screen and (max-width: 479px) {
+
+}
+
+@media only screen and (max-width: 440px) {
+	.parliamnetsec .apexcharts-canvas {margin-left: -70px;transform: scale(0.8);}
+	.news-content p {font-size: 12px;}
+	.logoDV {margin-left: -20px;}
+	.hds-center .logo-txt {margin-left: -20px;}
+	.logo-txt:after {right: -18px;}
+	.hds-center .logo-txt2 {margin-left: 0px;margin-top: 3px;}
+	.product21ColSlider2 .col-md-10.pl-0 {width: calc(100% - 60px); padding-right: 0;}
+	.Biography-sec .bioTxt p {font-size: 12px;}
+
+}

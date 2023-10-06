@@ -1,0 +1,8 @@
+.html5-prev{background:url(../images/lightbox-prev.png); width:32px; height:32px;}
+.html5-prev img,#html5-close img,.html5-next img{display:none;}
+#html5-close{background:url(../images/lightbox-close.png); width:32px; height:32px;}
+.html5-next{background:url(../images/lightbox-next.png); width:32px; height:32px;}
+#html5-watermark,#html5-social{display:none!important;}
+.lightboxlist{list-style:none; margin:0; padding:0;}
+.lightboxlist li{float:left; overflow:hidden;}
+.html5-nav{display:none !important;}

@@ -1,0 +1,231 @@
+@charset "utf-8";
+/* CSS Document */
+
+.full-width{width:100%;float:left}
+.bgg-grad{background:linear-gradient(45deg,#a52e3a,#e5743e)}
+.bgg-grad h2, .bgg-grad p a, .bgg-grad p{color:white;text-decoration:none}
+.bigger-font h2{font-size:30px}
+.bigger-font h5{font-weight:600}
+.bgg-gray {background:#ececec}
+
+
+.profile-title{color:#bc4313}
+.side-img-down p{font-size: 14px;color: #000;line-height: 1.5;font-weight:500}
+.rotate-img{transform:rotateY(180deg)}
+
+
+.bgg-section-2{background: -webkit-linear-gradient(45deg,#441774 0%,#48187b 50%,#601a76 63%,#b32067 100%);}
+
+.bgg-section-3{background: #ffc128}
+
+
+.bgg-section-3 p{margin-bottom:25px !important}
+.bgg-section-3 h5{margin-bottom:30px;position:relative;font-size: 30px}
+.bgg-section-3 h5:after{width: 69px;
+    height: 3px;
+    content: '';
+    background: #fe5933;
+    position: absolute;
+    left: 0;
+    bottom: -15px}
+
+
+.bgg-section-2 p, .bgg-section-2 h5{color:white}
+.bgg-section-2 p{margin-bottom:25px !important}
+.bgg-section-2 h5{margin-bottom:30px;position:relative;font-size: 30px}
+.bgg-section-2 h5:after{width: 69px;
+    height: 3px;
+    content: '';
+    background: #fe5933;
+    position: absolute;
+    left: 0;
+    bottom: -15px}
+
+.bgg-section-4{background: -webkit-linear-gradient(45deg,#ed3c3c 0%,#f1503b 50%,#f06439 63%,#ed8236 100%);}	
+.bgg-section-4 p, .bgg-section-4 h5{color:white}
+.bgg-section-4 p{margin-bottom:25px !important}
+.bgg-section-4 h5{margin-bottom:30px;position:relative;font-size: 30px}
+.bgg-section-4 h5:after{width: 69px;
+    height: 3px;
+    content: '';
+    background: #ffc128;
+    position: absolute;
+    left: 0;
+    bottom: -15px}
+
+.bgg-set{position:relative}
+
+.bgg-section-5{background: -webkit-linear-gradient(45deg,#472dc5 0%,#4241c7 50%,#3b62cb 63%,#29add3 100%);}
+.bgg-section-5 p{margin-bottom:25px !important}
+.bgg-section-5 p, .bgg-section-5 h5{color:white}
+.bgg-section-5 h5{margin-bottom:30px;position:relative;font-size: 30px}
+.bgg-section-5 h5:after{width: 69px;
+    height: 3px;
+    content: '';
+    background: #ffc128;
+    position: absolute;
+    left: 0;
+    bottom: -15px}
+
+
+
+@media screen and (min-width:768px)
+
+{.side-img-down img{position:absolute}
+.side-img-down img.profile-pic{bottom:35px}
+.side-img-down img.profile-pic-2{bottom: -40px;left: -20px}
+.side-img-down img.profile-pic-3{bottom: -20px;right: 0}
+
+
+.side-img img{position:absolute}
+.side-img img.profile-pic{top:-50px}
+.side-img img.profile-pic-2{bottom: -90px;left: 90%;max-width: 120px;z-index: 9999}
+.side-img img.profile-pic-3{bottom: -20px;right: 0}
+
+.side-img-3 img{position:absolute}
+.side-img-3 img.profile-pic{top:-50px}
+.side-img-3 img.profile-pic-2{bottom: -90px;left: -100px;max-width: 120px;z-index: 9}
+.side-img-3 img.profile-pic-3{bottom: -20px;right: 0}
+
+.small-color-block{position:absolute;right:-30px;width:30px;height:30px;bottom:-30px;background:#591978}
+.small-color-block-2{position:absolute;left:-30px;width:30px;height:30px;bottom:-30px;background:#ffc128}
+.small-color-block-3{position:absolute;left:-30px;width:30px;height:30px;bottom:-30px;background:#472dc5}
+.small-color-block-4{position:absolute;right:-30px;width:30px;height:30px;bottom:-30px;background:#f24d3b}
+
+.bgg-after{    background: #efaf11;
+    width: 80px;
+    height: 63px;
+    content: '';
+    position: absolute;
+    left: 302px;
+    top: 145px;
+    z-index: 1}
+.side-img-3 .bgg-after{  background: #c21f50;
+    width: 80px;
+    height: 63px;
+    content: '';
+    position: absolute;
+    left: -110px;
+    top: 145px;
+    z-index: 1}
+/*472dc5*/
+}
+
+.footer-border{border-top: 1px solid #ccc;padding-top:10px;}
+/******** Programme ********/
+.programmeContent, .programmeContent .smallContainer { position: relative; }
+.programmeContent .programmeRow { position: relative; }
+.programmeContent .programmeRow:before { width: 24px; height: 24px; background-color: #fff; content: ""; position: absolute; right:-15px; top:63px; box-shadow: 0 0 43px rgba(0, 0, 0, 0.22); }
+.programmeContent .programmeRow:after { width: 38px; height: 38px; background-color: #e2e2e2; content: ""; position: absolute; right:-43px; bottom:-43px; box-shadow: 0 0 43px rgba(0, 0, 0, 0.22); }
+.programmeContent .programmeDetail { min-height: 393px; }
+.programmeContent .day { color: #393939; font-size: 35px; font-weight: 300; font-family: 'Roboto Condensed', sans-serif; display: block; margin-bottom: 5px; }
+.programmeContent .date { color: #fff; font-size: 16px; font-weight: 400; background-color: #fe5933; font-family: 'Roboto Condensed', sans-serif; padding:5px 20px 5px 8px; border-radius:0 30px 30px 0; margin-bottom: 20px; display: inline-block; }
+.programmeContent h2 { color: #393939; font-size: 40px; font-weight: 700; font-family: 'Roboto Condensed', sans-serif; margin-bottom: 5px; }
+.programmeContent h2 span { font-weight: 300; }
+.programmeContent p { color: #3e3e3e; font-size: 18px; }
+
+.programmeContent .imgHolder { position: absolute; }
+.programmeContent .largeImg { left: 0; bottom: 21px; width: 359px; box-shadow: 0 0 35px rgba(0, 0, 0, 0.21); }
+.programmeContent .mediumImg { left: 202px; bottom: -48px; width: 199px; box-shadow: 0 0 59px rgba(0, 0, 0, 0.33);}
+.programmeContent .smallImg { left: -38px; bottom: -33px; width: 112px; box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);}
+.programmeContent .exSmallImg { left: -132px; bottom: 159px; width: 95px; box-shadow: 0 0 24px rgba(0, 0, 0, 0.12);}
+
+.programmeContent .wayBlock { position: absolute; }
+.programmeDay1 .topWay { right: 70px; top: 0; width: 555px; height: 181px; background:url(../images/programme-day1-top-way-bg.png) no-repeat 0 0; }
+.programmeDay1 .bottomWay { left: 312px; bottom: 0; width: 280px; height: 273px; background:url(../images/programme-day1-bottom-way-bg.png) no-repeat 0 0; }
+.programmeDay2 .bottomWay { left: 312px; bottom: 0; width: 431px; height: 304px; background:url(../images/programme-day2-bottom-way-bg.png) no-repeat 0 0; }
+.programmeDay3 .bottomWay { left: 312px; bottom: 0; width: 434px; height: 266px; background:url(../images/programme-day3-bottom-way-bg.png) no-repeat 0 0; }
+.programmeDay4 .bottomWay { left: 312px; bottom: 0; width: 434px; height: 287px; background:url(../images/programme-day4-bottom-way-bg.png) no-repeat 0 0; }
+.programmeDay5 .bottomWay { left: 290px; bottom: 0; width: 458px; height: 349px; background:url(../images/programme-day5-bottom-way-bg.png) no-repeat 0 0; z-index: 1; }
+
+.programmeDay1 .smallContainer { padding-bottom: 273px; padding-top: 181px; }
+.programmeDay1 .programmeRow, .programmeDay3 .programmeRow, .programmeDay5 .programmeRow { margin-right: 66px; padding-left: 359px }
+.programmeDay1 .programmeDetail, .programmeDay3 .programmeDetail, .programmeDay5 .programmeDetail { background-color: #ededed; padding: 45px 45px 45px 85px; }
+
+.programmeDay2 { background:url(../images/programme-day2-bg.jpg) no-repeat bottom center; background-size:100%; }
+.programmeDay2 .smallContainer { padding-bottom: 304px; }
+.programmeDay2 .programmeRow, .programmeDay4 .programmeRow { margin-left: 66px; padding-right: 359px }
+.programmeDay2 .programmeDetail { background: rgba(72,24,123,1);
+background: -moz-linear-gradient(45deg, rgba(72,24,123,1) 0%, rgba(72,24,123,1) 37%, rgba(189,33,101,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(72,24,123,1)), color-stop(37%, rgba(72,24,123,1)), color-stop(100%, rgba(189,33,101,1)));
+background: -webkit-linear-gradient(45deg, rgba(72,24,123,1) 0%, rgba(72,24,123,1) 37%, rgba(189,33,101,1) 100%);
+background: -o-linear-gradient(45deg, rgba(72,24,123,1) 0%, rgba(72,24,123,1) 37%, rgba(189,33,101,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(72,24,123,1) 0%, rgba(72,24,123,1) 37%, rgba(189,33,101,1) 100%);
+background: linear-gradient(45deg, rgba(72,24,123,1) 0%, rgba(72,24,123,1) 37%, rgba(189,33,101,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#48187b', endColorstr='#bd2165', GradientType=1 );
+ padding: 45px 145px 45px 70px; }
+.programmeDay2 .day, .programmeDay2 h2, .programmeDay2 p, .programmeDay4 .day, .programmeDay4 h2, .programmeDay4 p, .programmeDay5 .day, .programmeDay5 h2, .programmeDay5 p { color: #fff; }
+.programmeDay2 .largeImg, .programmeDay4 .largeImg { right: 0; left:auto; bottom: 21px; }
+.programmeDay2 .mediumImg, .programmeDay4 .mediumImg { right: 296px; left:auto; bottom: -47px; }
+.programmeDay2 .smallImg, .programmeDay4 .smallImg { right: 98px; left:auto; bottom: -35px;}
+.programmeDay2 .programmeRow:before { left:-15px; right:auto; bottom:63px; top: auto;}
+.programmeDay2 .programmeRow:after { left:-43px; right: auto; bottom:-43px; background-color: #4a187b; }
+
+.programmeDay3 .smallContainer { padding-bottom: 266px; }
+.programmeDay3 .programmeDetail { background-color: #ffc128; }
+.programmeDay3 .day, .programmeDay3 h2 { color: #282727; }
+.programmeDay3 p { color: #3e3e3e; }
+.programmeDay3 .programmeRow:after { right:-43px; left: auto; top:-43px; background-color: #ffc128; }
+.programmeDay3 .smallImg { left: -38px; bottom: -25px; width: 144px;}
+.programmeDay3 .mediumImg { bottom: -60px; }
+
+.programmeDay4 .smallContainer { padding-bottom: 287px; }
+.programmeDay4 .programmeDetail { background: rgba(243,61,61,1);
+background: -moz-linear-gradient(45deg, rgba(243,61,61,1) 0%, rgba(243,61,61,1) 42%, rgba(251,144,57,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(243,61,61,1)), color-stop(42%, rgba(243,61,61,1)), color-stop(100%, rgba(251,144,57,1)));
+background: -webkit-linear-gradient(45deg, rgba(243,61,61,1) 0%, rgba(243,61,61,1) 42%, rgba(251,144,57,1) 100%);
+background: -o-linear-gradient(45deg, rgba(243,61,61,1) 0%, rgba(243,61,61,1) 42%, rgba(251,144,57,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(243,61,61,1) 0%, rgba(243,61,61,1) 42%, rgba(251,144,57,1) 100%);
+background: linear-gradient(45deg, rgba(243,61,61,1) 0%, rgba(243,61,61,1) 42%, rgba(251,144,57,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f33d3d', endColorstr='#fb9039', GradientType=1 );
+padding: 45px 145px 45px 70px; }
+.programmeDay4 .date, .programmeDay5 .date { background-color: #ffc128; color: #282727; }
+.programmeDay4 .programmeRow:before { left:-15px; right:auto; top:135px; }
+.programmeDay4 .programmeRow:after { left:-43px; right: auto; top:-43px; background-color: #f33d3d; }
+
+.programmeDay5 .smallContainer { padding-bottom: 349px; }
+.programmeDay5 .programmeDetail { background: rgba(76,49,212,1);
+background: -moz-linear-gradient(45deg, rgba(76,49,212,1) 0%, rgba(76,49,212,1) 37%, rgba(34,208,211,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(76,49,212,1)), color-stop(37%, rgba(76,49,212,1)), color-stop(100%, rgba(34,208,211,1)));
+background: -webkit-linear-gradient(45deg, rgba(76,49,212,1) 0%, rgba(76,49,212,1) 37%, rgba(34,208,211,1) 100%);
+background: -o-linear-gradient(45deg, rgba(76,49,212,1) 0%, rgba(76,49,212,1) 37%, rgba(34,208,211,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(76,49,212,1) 0%, rgba(76,49,212,1) 37%, rgba(34,208,211,1) 100%);
+background: linear-gradient(45deg, rgba(76,49,212,1) 0%, rgba(76,49,212,1) 37%, rgba(34,208,211,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4c31d4', endColorstr='#22d0d3', GradientType=1 );
+}
+.programmeDay5 .programmeRow:before { right:-15px; left:auto; bottom:41px; top: auto;}
+.programmeDay5 .programmeRow:after { right: -43px; left: auto; top: -43px; background-color: #22d1d3; }
+
+.programmeDay6 { background:url(../images/republic-day-event-bg.jpg) no-repeat bottom center; background-size:100%; padding-bottom: 160px; margin-top: -190px; }
+.programmeDay6 .programmeRow { position: relative; z-index: 2; }
+.programmeDay6 .programmeDetail { min-height: 1px; padding-left: 493px; }
+.programmeDay6 .programmeRow:after, .programmeDay6 .programmeRow:before { display: none; }
+.programmeDay6 h2 { color: #db4e2d; font-size: 97px; line-height: 0.9; margin-bottom: 15px; position: relative; }
+.programmeDay6 h2 .smallText { font-size: 22px; color: #3e3e3e; display: block; font-weight: 400; }
+.programmeDay6 h2 .purpleColor { font-size: 80px; color: #4e197a; font-weight: 700; line-height: 0.5; display:inline-block; }
+.programmeDay6 .dayImg { position: absolute; left: -163px; top: 68px; }
+.programmeDay6 .participate { margin-top: 370px; text-align: center; }
+.programmeDay6 .participate .button { color: #4e197a; font-size: 30px; font-weight: 700; padding: 17px 30px; font-family: 'Roboto Condensed', sans-serif; text-transform: uppercase; background-color: #fdb913; box-shadow: 0 0 54px rgba(0, 0, 0, 0.75); }
+.programmeDay6 .participate .button:hover { background-color: #4e197a; color: #fff; }
+
+
+/********* Page banner *********/
+.pageBanner { position: relative; overflow: hidden; }
+.pageBanner .pageBannerImg { /*height: 400px;*/ height:250px; background-size: cover; background-position: center center; background-repeat: no-repeat;}
+.pageBanner .pageBannerImg img { width: 100%; height: auto; visibility: hidden; }
+.pageBanner .pageBannerOverlay { background: rgba(66, 23, 115, 0.3); position: absolute; left: 0; top: 0; width: 100%; bottom:40px; }
+.pageTitle { position: absolute; left: 0; top: 0; width: 100%; bottom:40px; display: -ms-flexbox; display: flex; align-items: center; -webkit-box-align: center; -ms-flex-align: center; }
+.pageTitle h1 { font-weight: 700; /*font-size: 54px;*/ font-size:45px; color: #fff; margin: 0; }
+.pageTitle h1 span { display: block; font-size: 25px; font-weight: 400; }
+/********* Breadcrumbs *********/
+.breadcrumbs { width: 100%; background: rgba(66, 23, 115, 0.6); padding: 10px 0; }
+.breadcrumbs ul { margin: 0; padding: 0; }
+.breadcrumbs ul li { display: inline-block; color: #fff; }
+.breadcrumbs ul li a { color: #fff; position: relative; padding-right: 20px; }
+.breadcrumbs ul li a:after { content: "\f105"; font-family: 'fontawesome'; position: absolute; top: 0; right: 4px; font-size: 14px; }
+.breadcrumbs ul li a:hover { color: #fdb913; }
+.breadcrumbs ul li a:hover:after  { color: #fff; }
+
+.innerContentPart { padding: 50px 0; min-height: 400px; }
+.innerContentPart.fullWidth { margin-top: -50px; margin-bottom: -50px; }
+

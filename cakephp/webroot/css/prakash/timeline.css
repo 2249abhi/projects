@@ -1,0 +1,200 @@
+
+
+.timeline {position: relative;}
+.deoheading {
+    padding-top: 30px;
+    padding-bottom: 40px;
+	position:relative;
+}
+.deoheading h3 {
+    background: url(../images/title-bg.jpg) center bottom no-repeat;
+    padding-bottom: 30px;
+}
+.timeline::before {
+  content: '';
+  background:#f98924;
+  width: 5px;
+  height: 95%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.deoheading h3 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.deoheading p {font-size:14px;}
+
+.timeline-item {
+  width: 100%;
+  margin-bottom: 70px;
+  position:relative;
+}
+.timeline-item:nth-child(even) .timeline-content {
+  float: right;
+  padding: 40px 30px 10px 30px;
+}
+.timeline-item:nth-child(even) .timeline-content .date {
+  right: auto;
+  left: 0;
+}
+.timeline-item:nth-child(even) .timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  left: -15px;
+  border-width: 10px 15px 10px 0;
+  border-color: transparent #f98924 transparent transparent;
+}
+.timeline-item::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.timeline-content {
+  position: relative;
+  width: 45%;
+  padding: 10px 30px;
+  border-radius: 4px;
+  background: #fff;
+  box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
+}
+.timeline-content::after {
+  content: '';
+  position: absolute;
+  border-style: solid;
+  width: 0;
+  height: 0;
+  top: 30px;
+  right: -15px;
+  border-width: 10px 0 10px 15px;
+  border-color: transparent transparent transparent #f98924;
+}
+
+.timeline-img {    line-height: 60px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #000;
+	text-align:center;
+    width: 70px;
+    height: 70px;
+    background: #f8f8f9;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    margin-top: 25px;
+    margin-left: 0;
+    border: 4px solid #f98924;
+    transform: translateX(-50%);
+}
+
+.rightimg {position: absolute; right: 0; z-index: 9999;top: 0; width: 45%;}
+.rightimg .timeline-img-header,.leftimg .timeline-img-header{background: #fff;box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);padding: 10px;margin-bottom:30px;}
+.leftimg {position: absolute; left: 0; z-index: 9999;top: 0; width: 45%; }
+.timeline-card a {
+  background: #3F51B5;
+  color: #FFFFFF;
+  padding: 8px 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  display: inline-block;
+  border-radius: 2px;
+  box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
+}
+.timeline-card a:hover,.timeline-card a:active,.timeline-card a:focus {
+  background: #32408f;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.timeline-card {
+  padding: 0 10px 10px!important;
+}
+.timeline-item ul {
+    padding-left: 30px;
+    width: 100%;
+    list-style: none;
+}
+.timeline-item ul li {
+    border-bottom: 2px dashed #ccc;
+    padding: 10px 0;
+    font-weight: bold; position:relative;
+}
+.timeline-item ul ul {
+    list-style: circle;
+    padding-left: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.timeline-item ul li ul li {
+    border: none;
+    padding: 5px 0;
+    font-weight: normal;
+    font-size: 15px;
+}
+.timeline-item ul li ul li:after{display:none;}
+.timeline-card p {
+  padding: 0 20px 20px;    font-size: 12px;
+    line-height: 1.4; margin-bottom:0;
+}
+.timeline-card a {
+  margin-left: 20px;
+}
+
+
+.timeline-img-header {
+  position: relative;
+  margin-bottom: 0px;
+}
+.timeline-img-header h2 {
+  color: #000; padding:15px; margin-bottom:0;
+}
+
+blockquote {
+  margin-top: 0px; font-size:12px;
+  color: #000;
+  border-left-color: #3F51B5;
+  padding:0px 15px 15px;
+}
+
+.date {
+  color: #000;
+  padding:0 15px;
+      margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .timeline::before {
+    left: 50px;
+  }
+  .timeline .timeline-img {
+    left:35px; width:30px; height:30px;
+  }
+  .timeline .timeline-content {
+    max-width: 100%;
+    width: auto;
+    margin-left: 70px;
+  }
+  .timeline .rightimg,.timeline .leftimg {position: relative; width:auto; max-width:100%;    margin-left: 70px;}
+  .timeline .timeline-item:nth-child(even) .timeline-content {
+    float: none;
+  }
+  .timeline .timeline-item:nth-child(odd) .timeline-content::after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    width: 0;
+    height: 0;
+    top: 30px;
+    left: -15px;
+    border-width: 10px 15px 10px 0;
+    border-color: transparent #f5f5f5 transparent transparent;
+  }
+}
