@@ -175,6 +175,11 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
         Spatie\Permission\PermissionServiceProvider::class,
+
+        /*
+         * Custom Sidebar Service Providers...
+         */
+        App\Providers\SidebarServiceProvider::class,
     ],
 
     /*
