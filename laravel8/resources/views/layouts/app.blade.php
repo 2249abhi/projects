@@ -23,8 +23,12 @@
         <!-- ============================================================== -->
         <!-- navbar -->
         <!-- ============================================================== -->
+        
+        @guest
+        @else
         @include('layouts.header')
         @include('layouts.sidebar')
+        @endguest
         <div class="dashboard-wrapper">
             @yield('content')
             <!-- <div class="container-fluid dashboard-content">
@@ -68,7 +72,10 @@
                     </div>
                 </div>
             </div> -->
+            @guest
+            @else
             @include('layouts.footer')
+            @endguest
         </div>
     </div>
     <script src="{{ asset('assets/vendor/jquery/jquery-3.3.1.min.js') }}"></script>
