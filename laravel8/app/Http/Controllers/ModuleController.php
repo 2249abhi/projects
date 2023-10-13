@@ -70,16 +70,20 @@ class ModuleController extends Controller
         ]);
         $input = $request->all();
 
-        echo '<pre>';
-        print_r($input);die;
-        Module::create([
-            'pid'       => $input['pid'],
-            'name'      => $input['name'],
-            'action'    => $input['action'],
-            'depth'     => $input['depth'],
-            'description'    => $input['detail'],
-            'controller' => '',
-        ]);
+        $data = [
+            'pid'           => $input['pid'],
+            'name'          => $input['name'],
+            'action'        => $input['action'],
+            'depth'         => $input['depth'],
+            'description'   => $input['detail'],
+            'controller'    => 'none',
+            'cid'           => 0,
+            'icon'          => 'none'
+        ];
+
+        // echo '<pre>';
+        // print_r($data);die;
+        Module::create($data);
 
         // echo '<pre>';
         // print_r($q);die;
