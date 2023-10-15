@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Module;
+use App\Models\Permission;
 use Illuminate\Http\Request;
 
 class ModuleController extends Controller
@@ -14,10 +15,10 @@ class ModuleController extends Controller
      */
     function __construct()
     {
-        //  $this->middleware('permission:module-list|module-create|module-edit|module-delete', ['only' => ['index','show']]);
-        //  $this->middleware('permission:module-create', ['only' => ['create','store']]);
-        //  $this->middleware('permission:module-edit', ['only' => ['edit','update']]);
-        //  $this->middleware('permission:module-delete', ['only' => ['destroy']]);
+         $this->middleware('permission:module-list|module-create|module-edit|module-delete', ['only' => ['index','show']]);
+         $this->middleware('permission:module-create', ['only' => ['create','store']]);
+         $this->middleware('permission:module-edit', ['only' => ['edit','update']]);
+         $this->middleware('permission:module-delete', ['only' => ['destroy']]);
     }
 
     /**
@@ -65,7 +66,7 @@ class ModuleController extends Controller
             'pid' => 'required',
             'name' => 'required',
             'detail' => 'required',
-            'action' => 'required',
+            //'action' => 'required',
             'depth' => 'required',
         ]);
         $input = $request->all();
@@ -73,20 +74,43 @@ class ModuleController extends Controller
         $data = [
             'pid'           => $input['pid'],
             'name'          => $input['name'],
-            'action'        => $input['action'],
+            'action'        => $input['pid'] == 0 ? '' : $input['action'],
             'depth'         => $input['depth'],
             'description'   => $input['detail'],
             'controller'    => 'none',
             'cid'           => 0,
-            'icon'          => 'none'
+            'icon'          => 'fa fa-folder'
         ];
 
-        // echo '<pre>';
-        // print_r($data);die;
-        Module::create($data);
+       $module = Module::create($data);
 
-        // echo '<pre>';
-        // print_r($q);die;
+       if($input['pid'] == 0 && !empty($input['submodule']) && !empty($module->id))
+       {
+            foreach ($input['submodule'] as $key => $module_name) {
+
+                //Create Permission to give as per roles
+                $permission_data = [
+                    'name' => strtolower($input['name']).'-'.$module_name,
+                    'guard_name' => 'web'
+                ];
+
+                Permission::create($permission_data);
+
+                // Create all sub modules
+                $submodule_data = [
+                    'pid'           => $module->id,
+                    'name'          => ucfirst($module_name),
+                    'action'        => strtolower($input['name']).'.'.$module_name,
+                    'depth'         => ($key+1),
+                    'description'   => ucfirst($input['name']).'-'.ucfirst($module_name),
+                    'controller'    => 'none',
+                    'cid'           => 0,
+                    'icon'          => 'fa fa-'.strtolower($module_name)
+                ];
+                
+                Module::create($submodule_data);
+            }
+       }
     
         return redirect()->route('modules.index')->with('success','Module created successfully.');
     }

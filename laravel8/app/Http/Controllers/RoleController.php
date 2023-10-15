@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Spatie\Permission\Models\Role;
 use Spatie\Permission\Models\Permission;
+use Spatie\Permission\Models\RolesPermissions;
 use DB;
     
 class RoleController extends Controller
@@ -95,6 +96,8 @@ class RoleController extends Controller
         $rolePermissions = DB::table("role_has_permissions")->where("role_has_permissions.role_id",$id)
             ->pluck('role_has_permissions.permission_id','role_has_permissions.permission_id')
             ->all();
+
+       // $show_in_menu = RolesPermissions::where('role_id',$id)->
     
         return view('roles.edit',compact('role','permission','rolePermissions'));
     }

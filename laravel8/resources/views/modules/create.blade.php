@@ -68,7 +68,7 @@
                                                 <input type="text" name="name" class="form-control" placeholder="Name">
                                             </div>
                                         </div>
-                                        <div class="col-xs-8 col-sm-8 col-md-8">
+                                        <div class="col-xs-8 col-sm-8 col-md-8 action" style="display:block;">
                                             <div class="form-group">
                                                 <strong>Action:</strong>
                                                 <input type="text" name="action" class="form-control" placeholder="Action">
@@ -78,6 +78,16 @@
                                             <div class="form-group">
                                                 <strong>Order:</strong>
                                                 <input type="number" name="depth" class="form-control" placeholder="Order">
+                                            </div>
+                                        </div>
+                                        <div class="col-xs-12 col-sm-12 col-md-12 submodule">
+                                            <div class="form-group">
+                                                <strong>Create sub Modules</strong>
+                                                <br/>
+                                                <input type="checkbox" name="submodule[]" value="index"> List <br/>
+                                                <input type="checkbox" name="submodule[]" value="add"> Add <br/>
+                                                <input type="checkbox" name="submodule[]" value="edit"> Edit <br/>
+                                                <input type="checkbox" name="submodule[]" value="delete"> Delete <br/>
                                             </div>
                                         </div>
                                         <div class="col-xs-8 col-sm-8 col-md-8">
@@ -102,6 +112,11 @@
         </div>
     </div>
 </div>
+<script>
+    $(document).ready(function({
+
+    }));
+</script>
 <!-- <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-md-8">

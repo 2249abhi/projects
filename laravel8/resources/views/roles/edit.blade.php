@@ -38,11 +38,25 @@
         <div class="form-group">
             <strong>Permission:</strong>
             <br/>
-            @foreach($permission as $value)
-                <label>{{ Form::checkbox('permission[]', $value->id, in_array($value->id, $rolePermissions) ? true : false, array('class' => 'name')) }}
-                {{ $value->name }}</label>
-            <br/>
+            <table class="table">
+                <tr>
+                    <th>Sr. No.</th >
+                    <th>Module</th>
+                    <th>Name</th>
+                    <th>Don't Show in Navigation Menu</th>
+                </tr>
+            @foreach($permission as $key => $value)
+            <?php
+               $module = explode('-',$value->name);
+            ?>
+                <tr>
+                    <td><?= ($key+1) ?></td>
+                    <td><?= $module[0] ?></td>
+                    <td>{{ Form::checkbox('permission[]', $value->id, in_array($value->id, $rolePermissions) ? true : false, array('class' => 'name')) }} {{ $value->name }}</td>
+                    <td>{{ Form::checkbox('rolepermission[]', '', '', array('class' => 'rolepname')) }}</td>
+                </tr>
             @endforeach
+            </table>
         </div>
     </div>
     <div class="col-xs-12 col-sm-12 col-md-12 text-center">

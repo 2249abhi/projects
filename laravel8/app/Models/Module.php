@@ -10,6 +10,6 @@ class Module extends Model
     use HasFactory;
     //protected $table = 'Modules';
     protected $fillable = [
-        'name', 'description','pid','cid','controller','depth'
+        'name', 'description','pid','cid','controller','depth','action'
     ];
 }
