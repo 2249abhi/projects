@@ -67,7 +67,7 @@ class ModuleController extends Controller
             'name' => 'required',
             'detail' => 'required',
             //'action' => 'required',
-            'depth' => 'required',
+            //'depth' => 'required',
         ]);
         $input = $request->all();
 

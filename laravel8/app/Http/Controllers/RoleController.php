@@ -115,12 +115,18 @@ class RoleController extends Controller
             'name' => 'required',
             'permission' => 'required',
         ]);
-    
+
+        $data = $request->all();
+
+        echo '<pre>';
+        print_r($data);die;
         $role = Role::find($id);
         $role->name = $request->input('name');
         $role->save();
     
         $role->syncPermissions($request->input('permission'));
+
+
     
         return redirect()->route('roles.index')
                         ->with('success','Role updated successfully');
