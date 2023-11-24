@@ -9,6 +9,8 @@ class RolesPermissions extends Model
 {
     use HasFactory;
 
+    protected $guarded = [];
+
     //protected $table = 'Rolespermissions';
 
     public function Module()

@@ -15,6 +15,7 @@
                             <li><a class="nav-link" href="{{ route('roles.index') }}">Manage Role</a></li>
                             <li><a class="nav-link" href="{{ route('products.index') }}">Manage Product</a></li>
                             <li><a class="nav-link" href="{{ route('modules.index') }}">Manage Module</a></li>
+                            <li><a class="nav-link" href="{{ route('rolepermissions.index') }}">Manage Permissions</a></li>
                     <?php 
                     $i = 0;
                     foreach($response['roledata'] as $navaction) { ?>
