@@ -29,9 +29,16 @@ Auth::routes();
 Route::get('/home', [HomeController::class, 'index'])->name('home');
 
 Route::group(['middleware' => ['auth']], function() {
+
     Route::resource('roles', RoleController::class);
+
     Route::resource('users', UserController::class);
+    Route::get('users/user-log', [UserController::class, 'user-log'])->name('users.user-log');
+    Route::get('users/change-password-history', [UserController::class, 'change-password-history'])->name('users.change-password-history');
+
     Route::resource('products', ProductController::class);
     Route::resource('modules', ModuleController::class);
     Route::resource('rolepermissions', RolepermissionController::class);    
+
+    Route::resource('menus', ProductController::class);
 });
