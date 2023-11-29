@@ -40,18 +40,18 @@
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                             <div class="form-group">
                                                 <strong>Role:</strong>
-                                                {!! Form::select('role', $roles, array('class' => 'form-control')) !!}
+                                                {!! Form::select('role', $roles, $role, array('class' => 'form-control')) !!}
                                             </div>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                             <div class="form-group">
                                                 <strong>Module:</strong>
-                                                {!! Form::select('module', $modules, array('class' => 'form-control')) !!}
+                                                {!! Form::select('module', $modules,$module, array('class' => 'form-control')) !!}
                                             </div>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                             <div class="form-group">
-                                                <button type="submit" class="btn btn-primary">Submit</button>      
+                                                <button style="margin-top:18px;" type="submit" class="btn btn-primary">Submit</button>      
                                             </div>
                                         </div>
                                     </div>
@@ -70,7 +70,7 @@
                                 
                                 <table class="table table-bordered">
                                     <tr>
-                                        <th>No</th>
+                                        <th>Sr. No.</th>
                                         <th>Permission Name</th>
                                         <th>Allow permission</th>
                                         <th>Don't Show in Menu</th>

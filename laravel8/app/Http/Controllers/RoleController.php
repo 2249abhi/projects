@@ -117,9 +117,6 @@ class RoleController extends Controller
         ]);
 
         $data = $request->all();
-
-        echo '<pre>';
-        print_r($data);die;
         $role = Role::find($id);
         $role->name = $request->input('name');
         $role->save();

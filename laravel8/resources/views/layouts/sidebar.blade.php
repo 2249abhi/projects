@@ -11,11 +11,11 @@
                     <li class="nav-divider">
                                 Main Navigation
                     </li>
-                    <li><a class="nav-link" href="{{ route('users.index') }}">Manage Users</a></li>
-                            <li><a class="nav-link" href="{{ route('roles.index') }}">Manage Role</a></li>
+                            <li><a class="nav-link" href="{{ route('home') }}">Dashboard</a></li>
+                            <!-- <li><a class="nav-link" href="{{ route('roles.index') }}">Manage Role</a></li>
                             <li><a class="nav-link" href="{{ route('products.index') }}">Manage Product</a></li>
                             <li><a class="nav-link" href="{{ route('modules.index') }}">Manage Module</a></li>
-                            <li><a class="nav-link" href="{{ route('rolepermissions.index') }}">Manage Permissions</a></li>
+                            <li><a class="nav-link" href="{{ route('rolepermissions.index') }}">Manage Permissions</a></li> -->
                     <?php 
                     $i = 0;
                     foreach($response['roledata'] as $navaction) { ?>
@@ -37,12 +37,8 @@
                                         $str="";
                                     } ?>
                                     <li class="nav-item">
-                                        <a class="nav-item" href="#"><?= $Subnavaction['name'].'--'.$Subnavaction['action'] ?></a>
-                                    <!-- <a class="btn btn-primary" href=" route('products.edit',$product->id) "><i class="fa fa-circle-o"></i></a> -->
-                                <?php //$this->Html->link('<i class="fa fa-circle-o"></i>'.$Subnavaction['name'],['controller'=>ucfirst($Subnavaction['controller']),'action'=>strtolower($Subnavaction['action'])], ['class'=> 'nav-link', 'title' => __($Subnavaction['name']), 'escape' => false]);?>
-                            </li>
-                                    
-                                    
+                                        <a class="nav-item" href="{{ route($Subnavaction['controller'].'.'.$Subnavaction['action']) }}"><?= $Subnavaction['name'] ?></a>
+                                    </li>
                                     <?php } ?>
                                 </ul>
                             </div>

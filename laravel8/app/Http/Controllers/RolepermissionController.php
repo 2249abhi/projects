@@ -69,23 +69,31 @@ class RolepermissionController extends Controller
         // ]);
 
         $input = $request->all();
+        $menu = [];
+
+        if(!empty($input['menu']))
+        {
+            $menu = array_keys($input['menu']);
+        }
+        
+
         $data = [];
 
         $modules = Module::pluck('name', 'id')->toArray();
 
         foreach ($input['rolepermission'] as $permission) {
-            $data[] = [
+            $data = [
                 'role_id'           =>  $input['role_id'],
                 'mid'               =>  $permission,
-                'navigationshow'    =>  in_array($permission, $input['menu']) ? '1' : '0',
+                'navigationshow'    =>  (!empty($permission) && in_array($permission, $menu)) ? '1' : '0',
                 'module'            =>  $modules[$input['module_id']],
                 'moduletask'        =>  $modules[$permission]
             ]; 
-            //RolesPermissions::create($data);
+            RolesPermissions::create($data);
         }
 
-        echo '<pre>';
-        print_r($data);die;
+        // echo '<pre>';
+        // print_r($data);die;
         return redirect()->route('rolepermissions.index',['role'=>$input['role_id'],'module'=>$input['module_id']])->with('success','Permission updated successfully');
        
     }
