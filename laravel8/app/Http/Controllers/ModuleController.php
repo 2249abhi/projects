@@ -100,12 +100,12 @@ class ModuleController extends Controller
                 $submodule_data = [
                     'pid'           => $module->id,
                     'name'          => ucfirst($module_name),
-                    'action'        => strtolower($input['name']).'.'.$module_name,
+                    'action'        => $module_name,
                     'depth'         => ($key+1),
                     'description'   => ucfirst($input['name']).'-'.ucfirst($module_name),
-                    'controller'    => 'none',
+                    'controller'    => strtolower($input['name']),
                     'cid'           => 0,
-                    'icon'          => 'fa fa-'.strtolower($module_name)
+                    'icon'          => 'fa fa-folder'
                 ];
                 
                 Module::create($submodule_data);

@@ -40,13 +40,13 @@
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                             <div class="form-group">
                                                 <strong>Role:</strong>
-                                                {!! Form::select('role', $roles, $role, array('class' => 'form-control')) !!}
+                                                {!! Form::select('role', [''=>'Select Role']+$roles, $role, array('class' => 'form-control','required'=>true)) !!}
                                             </div>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">
                                             <div class="form-group">
                                                 <strong>Module:</strong>
-                                                {!! Form::select('module', $modules,$module, array('class' => 'form-control')) !!}
+                                                {!! Form::select('module', [''=>'Select Module']+$modules,$module, array('class' => 'form-control','required'=>true)) !!}
                                             </div>
                                         </div>
                                         <div class="col-xs-4 col-sm-4 col-md-4">

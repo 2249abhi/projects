@@ -47,9 +47,13 @@ class RolepermissionController extends Controller
 
         }
         
-
+        $emp = [''=>'Select Role'];
         $modules = Module::where('pid',0)->pluck('name', 'id')->toArray();
-        $roles = Role::pluck('name','id')->all();
+
+       // $modules = array_merge([''=>'Select Module'],$modules);
+
+        //$roles = ['' => 'Select Role'];
+        $roles = Role::pluck('name','id')->all();        
 
         return view('rolepermissions.index',compact('modules','roles','sub_modules','role_permissions','menu'));
     }
@@ -80,6 +84,10 @@ class RolepermissionController extends Controller
         $data = [];
 
         $modules = Module::pluck('name', 'id')->toArray();
+
+        $name = $modules[$input['module_id']];
+
+        RolesPermissions::where('module',$name)->delete();
 
         foreach ($input['rolepermission'] as $permission) {
             $data = [

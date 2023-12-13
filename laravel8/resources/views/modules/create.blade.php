@@ -85,9 +85,9 @@
                                                 <strong>Create sub Modules</strong>
                                                 <br/>
                                                 <input type="checkbox" name="submodule[]" value="index"> List <br/>
-                                                <input type="checkbox" name="submodule[]" value="add"> Add <br/>
+                                                <input type="checkbox" name="submodule[]" value="create"> Create <br/>
                                                 <input type="checkbox" name="submodule[]" value="edit"> Edit <br/>
-                                                <input type="checkbox" name="submodule[]" value="delete"> Delete <br/>
+                                                <input type="checkbox" name="submodule[]" value="destroy"> Delete <br/>
                                             </div>
                                         </div>
                                         <div class="col-xs-8 col-sm-8 col-md-8">
