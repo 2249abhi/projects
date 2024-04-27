@@ -1,0 +1,143 @@
+.menuicon{display:none;}
+
+
+
+/* mobiletabs */
+.mobile_tabs {
+    width: 100%;
+    float: left;
+    position: relative;
+    z-index: 999;
+	display:none;
+}
+
+/*
+
+ ************* Media Queries Tablets ****************** */
+@media only screen and (max-width: 1599px) {
+.topStrip { }
+}
+
+@media only screen and (max-width: 1279px) {
+
+}
+
+/* ************* iPad Media Queries ****************** */
+@media only screen and (max-width: 1169px) {	
+
+}
+
+@media only screen and (max-width: 1023px) {
+
+}
+
+/* ************* Mobiles Media Queries ****************** */
+@media only screen and (max-width: 767px) {
+.splsPage #header {padding: 0;}
+.splsPage .top-bar-right{padding-top:0;}
+.splsPage .image-circle {width: 55px;height: 55px;}
+.splsPage .hd-center-title{margin-top:5px;}
+.splsPage .top-bar-right ul {margin-bottom: 0;}
+.splsPage .hd-center-title h2 {font-size: 20px;line-height: 20px;}
+.splsPage .col-md-4 {position: inherit;}
+.splsPage .EntrWeb .btn {border-radius: 0;width: 120px;margin-top: 0;font-size: 12px;padding: 5px 0;height: auto;position: fixed;top: 0;right: 0; line-height:normal;}
+.splsPage .detail-minister ul li {float: left;display: inline-block; width: 50%; margin-bottom: 20px;}
+
+
+/* maine header */
+.headerRow .col-6 {max-width: 100%;flex: 0 0 100%;}
+.topNav li:nth-child(1), .topNav li:nth-child(2) {display: none;}
+.fiftyYRs {width: 130px;}
+.social-group li a .fa {width: 25px; height: 25px;line-height: 22px; font-size: 14px;padding: 3px;}
+.list-inline-item:not(:last-child) {margin-right:0rem;}
+	.searchArea .form-control{padding: 0 35px 0 15px;    border-radius: 0px;height: 31px; line-height: 31px;}
+	.searchArea .submit {width: 25px; height: 30px;}
+	.fiftyYRs ul.list-unstyled.list-inline.social-group {margin-top: 0px!important; margin-bottom: 0;}
+	.headerRow .col-6 .col-6 {max-width: 50%; flex: 0 0 50%;}
+	.image-circle {width: 50px!important;  height: 50px!important;}
+	.hds-center .logo-txt { padding-top: 0px; margin-left: -13px;}
+	.hds-center .logo-txt a {font-size: 14px;line-height: normal;}
+	.hds-center .logo-txt br{display:none;}
+	.hds-center .logo-txt span{display:block;}
+	.logo-txt:after{right:-20px; top:5px;}
+	.hds-center .logo-txt2 {font-size: 11px;margin-top: 10px;margin-left: 10px;}
+	.headerRow .col-6:nth-child(1) {margin-bottom: 10px;}
+	.TopleftNav ul li,.topNav li{padding:0 3px;}
+	.TopleftNav ul li a{font-size:10px;}
+	.topStrip .col-4 {padding: 0 5px;}
+	.topStrip .col-8 {padding: 0 5px;}
+	#accessControl input{width:15px; font-size:10px;}
+	.topNav select{font-size:12px;}
+	.homeBanner ol.carousel-indicators {margin-left:0;transform: rotate(0deg);margin-bottom:0; left: 0;}
+	header.headerFixed {position: relative;}
+	.headerFixed .col-3.hds-center.logoDV {max-width: fit-content;}
+	.menuBar {display: block;}
+	#nav li{width:100%; text-align:left;}
+	#nav li a{padding:0 0; font-size:14px;border-bottom: 1px dashed;}
+	#nav{width:100%;}
+	a.menuiconnew {display:block;position: absolute;right: -20px; top: 7px;font-size: 25px; border: 2px solid #333;padding: 0px 5px; height: 32px; line-height: 26px;}
+	.mainNavigation{display:none;}
+	.mainNavigation.openmenu{display:block;}
+	.mainNavigation.openmenu ul#nav{display:block!important;}
+	.bio-img1{height:auto;}
+	.Biography-sec .col-sm-5:after{height:90%;}
+	.inner-memory{padding:0 15px;}	
+	.slider-arrow-next {right: 0;}
+	.slider-arrow-prev {left: 0;}
+	.product21ColSlider2 .col-md-2.pl-0.pr-0 img {border: 5px solid #fff;}
+	.product21ColSlider2 .col-md-2.pl-0.pr-0 {width:25%;}
+	.product21ColSlider2 .col-md-10.pl-0 {width: 75%;}
+	.news-content p {font-size: 12px; line-height: normal;}
+	.product21ColSlider2 .col-md-10.pl-0 .card-body {padding-top: 0;}
+	.speeches #group {margin-left: 0;padding-left: 10px;}
+	.speeches #result {width: 70%;}
+	.speeches .img{height:100px;}
+	.speeches #result iframe {height: 302px;}
+	.speeches .vidDes p {font-size: 12px;}
+	.video-frame {height: 320px;margin-bottom: 20px;}
+	.video-frame iframe{height: 300px;}
+	#nav ul{position:relative; opacity:1; display:none;    width: 100%; top:0;}
+	#nav li:hover > ul{display:block;}
+	.headerFixed #nav ul {top: 0;}
+	.headerFixed #nav li ul li a ,#nav li ul li a{font-size: 14px; line-height: 25px;}
+	.section-title.con h2,.deoheading h3 {padding-bottom: 10px; background-size: 100%;}
+	.brdcum {padding: 10px 15px;}
+	
+	.vertical-tabs{    overflow-x: auto; overflow-y: hidden;}
+	.vertical-tabs .nav.nav-tabs {border-bottom: 0;    margin-right: 0;padding-right: 0; overflow-x: scroll; flex-wrap: nowrap;display: flex; width:100%;overflow-y: hidden;}
+	.nav-tabs .nav-item {width: 200px; display: flex;font-size:12px;min-width: 150px;}
+	.vertical-tabs .nav-tabs .nav-link{font-size:12px;padding: 5px; width:100%;}
+	.vertical-tabs .nav-tabs .nav-link img { width: 30px;}
+	.section-title{margin-bottom:0;}
+	.vertical-tabs .tab-content {display: block; float: left; width: 100%; margin-top: 40px;}
+	.bio-left {padding-right: 0px;margin-bottom: 20px;}
+	.bio-left2 p,.bio-right p {font-size: 12px;line-height: normal;}
+	.bio-right2 {padding-left: 0px; margin-bottom: 10px;}
+	section.parleful .vertical-tabs .nav.nav-tabs{display:flex;width:100%;    padding-top: 0; position:relative; height:auto;}
+	section.parleful .vertical-tabs{    border-radius:0px;padding: 0; }
+	section.parleful .tab-content {padding-left:10px; padding-top: 0px; padding-right:10px;margin-top: 10px;width:100%; float:left;}
+	section.parleful .vertical-tabs .nav-tabs .nav-link{font-size:14px;padding: 5px 10px;}
+	.bio-img iframe {width: 250px; height: 250px;}
+	.qct {margin-top: 20px;}
+	div#parl1 { width:100%!important;}
+	.GallSec .product-card .card-body{    padding: 9px 0px 0px 0px;}
+	.photoTab .col-lg-12 { padding: 0;}
+	.parliamnetsec .apexcharts-canvas {margin-left: -70px; transform: scale(0.8);}
+	section.parleful{padding:30px 15px;}
+	.accordion button.btn.btn-link.btn-block{white-space:inherit; font-size:12px;padding-right: 40px; padding-top: 5px;}
+	.accordiansection-area .card-body {padding-left: 30px; padding-right: 30px;}
+	#accordionExample li {font-size: 14px; padding-bottom: 10px;}
+	.accordiansection-area .bio-img{margin-bottom:0;}
+	.globimprt .vertical-tabs{border-radius:0;}
+	}
+
+@media only screen and (max-width: 639px) {
+
+}
+
+@media only screen and (max-width: 479px) {
+}
+
+@media only screen and (max-width: 359px) {
+
+}

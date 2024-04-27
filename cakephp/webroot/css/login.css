@@ -1,0 +1,39 @@
+/******************Login************************/
+[data-aos^=fade][data-aos^=fade]{ opacity:1;}
+#login {width: 500px; margin: 0px auto;padding-top: 40px;padding-bottom: 40px;}
+.login-bg,.register-bg{background:url(../assets/images/banner4.jpg);background-size:cover;background-position:center center;background-repeat:no-repeat;background-attachment:fixed;background-size:cover;}
+#login-box{background-color: #fff; box-shadow: 0px 2px 21px #827f7f;-moz-box-shadow: 0px 2px 21px #827f7f; -webkit-box-shadow: 0px 2px 21px #827f7f;}
+#login-form{ padding: 20px 30px 10px 30px;}
+.error{font-size: 16px;font-weight:600; color:red; display:block; margin-bottom:0px;}
+#login-form h3{font-weight:700;text-transform:uppercase;margin:0px 0px 20px 0px;}
+#login-form label{color:#a3a3a3;font-size:14px;line-height:18px;font-weight:400;}
+.form-control{border-radius:0px;padding:11px 12px;height:auto;}
+.login-btn{padding:9px 34px;text-transform:uppercase;background:rgba(240,47,23,1);background: linear-gradient(45deg, rgba(60,170,255,1) 0%, rgba(58,202,213,1) 100%);font-weight:600;}
+.login-btn a{ color:#fff;}
+.login-btn a:hover{ text-decoration:none;}
+.forget-password a{float:right;font-weight:600;color:#000;font-size:14px;line-height:30px;}
+span.rember-me{display:inline-block;margin-right:10px;vertical-align:top;line-height:15px;}
+.remember-me input[type="checkbox"]{margin-top:0px;}
+.rember-text{color:#000;font-weight:600;}
+.margin45{margin-top:20px;}
+.login-left-sec{background-image:url(../images/back-image.jpg);content:'';position:absolute;left:0px;top:0px;height:100%;width:100%;background-position:left top;background-repeat:no-repeat;background-size:cover;}
+.login-left-sec:before{background:linear-gradient(to right, rgba(240,47,23,1) 0%, rgba(50,143,219,1) 0%, rgba(5,163,105,1) 100%);position:absolute;height:100%;width:100%;content:'';left:0px;opacity:0.9;top:0px;}
+.login-left-sec img{position:relative;z-index:3333;max-width:100%;}
+.login-left-sec{padding:45px 10px 30px 10px;width:40%;text-align:center;float:left;margin-top:29px;position:relative;}
+.account-link.text-center{margin-top:109px;color:#fff;font-size:14px;position:relative;z-index:3333;}
+.account-link.text-center a{color:#fff;text-decoration:underline;}
+.account-link.text-center a:hover{text-decoration:none}
+.text1 {color: #fff;z-index: 333; position: absolute; top: 52px; font-size: 25px; font-weight: 600;padding: 10px;}
+a.recaptcha i.fa.fa-refresh {font-size: 30px;}
+.input-group1{ width:100%;}
+.register-form {width: 700px; margin: 100px auto; box-shadow: 0px 2px 16px #d6d2d2;background: #eee;padding: 20px 30px;}
+.register-heading {margin-bottom: 30px;}
+.register-heading h2 {font-size: 22px;line-height: 23px;color: #673AB7;position: relative;text-transform: uppercase;}
+.register-form .col-sm-3{ text-align:right;}
+.register-submit input[type="submit"]{padding: 9px 34px;text-transform: uppercase;background: rgba(240,47,23,1);background: linear-gradient(45deg, rgba(60,170,255,1) 0%, rgba(58,202,213,1) 100%);font-weight: 600;}
+
+
+
+
+
+
