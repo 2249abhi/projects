@@ -21,4 +21,4 @@ Many frameworks provide built-in or easily configurable modules for managing use
 
 **Role-Based UI:** When a user with the role "Data Entry User" logs in, they will be able to see the "Blog" module and perform the "Add" and "Edit" actions. However, they won’t have access to the "Delete" option, since that permission was not granted.
 
-# This approach allows organizations to manage access to various parts of the system based on roles, ensuring users only see and interact with what is relevant to their permissions.
+**This approach allows organizations to manage access to various parts of the system based on roles, ensuring users only see and interact with what is relevant to their permissions.**
